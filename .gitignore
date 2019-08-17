@@ -23,4 +23,5 @@ run
 libs
 *.txt
 gradlew
+gradle/wrapper
 *.bat
