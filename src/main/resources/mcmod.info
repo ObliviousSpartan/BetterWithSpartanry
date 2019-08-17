@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "betterwithspartanry",
+  "name": "Better With Spartanry",
+  "description": "Addon mod for Spartan Weaponry. Adds weapons made from Soulforged Steel, from the mod \"Better With Mods\".",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/better-with-spartanry",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["ObliviousSpartan", "Kovak"],
+  "credits": "Kovak for making the original version of the mod",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

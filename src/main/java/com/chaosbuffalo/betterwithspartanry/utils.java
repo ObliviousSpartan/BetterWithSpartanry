@@ -1,9 +1,10 @@
 package com.chaosbuffalo.betterwithspartanry;
 
-import betterwithmods.BWMod;
-import com.oblivioussp.spartanweaponry.util.ToolMaterialEx;
-import net.minecraft.item.Item;
 import org.apache.commons.lang3.StringUtils;
+
+import com.oblivioussp.spartanweaponry.api.ToolMaterialEx;
+
+import net.minecraft.item.Item;
 
 /**
  * Created by Jacob on 7/20/2018.

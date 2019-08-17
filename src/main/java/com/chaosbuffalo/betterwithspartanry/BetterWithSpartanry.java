@@ -17,20 +17,18 @@ import net.minecraftforge.oredict.OreDictionary;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = BetterWithSpartanry.MODID, name = BetterWithSpartanry.NAME, version = BetterWithSpartanry.VERSION,
-        dependencies="required-after:betterwithmods;required-after:spartanweaponry@[beta 1.1.2]")
+        dependencies="required-after:betterwithmods;required-after:spartanweaponry@[beta 1.3.0,)")
 public class BetterWithSpartanry
 {
     public static final String MODID = "betterwithspartanry";
     public static final String NAME = "Better With Spartanry";
-    public static final String VERSION = "0.01";
+    public static final String VERSION = "1.0";
 
     private static Logger logger;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        // This gets registered too late for Spartan Weaponry's tooltip logic, causes the material not found error display.
-        OreDictionary.registerOre("ingotSoulforgedSteel", ItemMaterial.getMaterial(ItemMaterial.EnumMaterial.INGOT_STEEL));
         logger = event.getModLog();
     }
 
